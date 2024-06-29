@@ -41,3 +41,11 @@ function checkBmi(){
 //Normal weight = 18.5–24.9
 //Overweight = 25–29.9
 //Obesity = BMI of 30 or greater
+function clearAll(){
+    document.getElementById("statement").innerText = '';
+    document.getElementById("output").value = '';
+    document.getElementById("height").value ='';
+    document.getElementById("weight").value ='';
+    height = '';
+    weight = '';
+}

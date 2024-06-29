@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0;
+    color: rgb(192, 0, 0);
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+    color: rgb(121, 0, 0);
+}
+div{
+    margin-top: 50px;
+    text-align: center;
+}
+#output{
+    margin-top: 10px;
+}
+button{
+    background-color: white;
+    margin-top: 5px;
+}
+button:hover{
+  background-color: rgb(192, 0, 0) ;
+  color: white;
+}
