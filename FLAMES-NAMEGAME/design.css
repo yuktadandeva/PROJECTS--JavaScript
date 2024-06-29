@@ -1,0 +1,20 @@
+h1{
+    color: lightblue;
+    margin-bottom: 0px
+}
+#subText{
+    color: rgb(79, 193, 231);
+    margin-top: 0;
+}
+button{
+    margin-top: 10px;
+    color: rgb(8, 145, 190);
+    background-color: white;
+    border-color: lightblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgb(8, 145, 190);
+    color: white;
+}
