@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: 'Anton',
+    sans-serif;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(94, 94, 94);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.content {
+    margin: auto;
+}
+
+.logo{
+    width: 60px;
+}
+
+img{
+    width: 100%;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar p{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+/* MAIN CONTAINER STYLING */
+
+.container{
+    margin-top: 20px;
+}
+
+/* #num{
+    height: 4vh;
+    width: 200px;
+    border: none;
+    background-color: rgb(188, 188, 188);
+} */
+
+.field{
+    margin-bottom: 20px;
+}
+
+.field label{
+    font-size: 1.2em;
+}
+
+.field input[type='number']{
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    color: red;
+    background-color: rgb(188, 188, 188);
+    border: none;
+    padding: 0 10px;
+}
+
+.field button{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#result{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
