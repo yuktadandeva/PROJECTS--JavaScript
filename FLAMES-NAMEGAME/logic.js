@@ -73,6 +73,8 @@ function replaceAt(string, index, replace) {
 function clearAll(){
     document.getElementById('firstName').value = '' ;
     document.getElementById('secName').value = '' ;
-    document.getElementById('result').value = '' ;
+    document.getElementById('result').innerText = '';
+    str1='';
+    str2='';
     
 }
